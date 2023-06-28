@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: coral;
+   color: darkkhaki;
+    padding: 10px;
+  }
+  
+  /* Estilos del banner */
+  .cover-imagen{
+    background-image: ("pizzas/BANNER.jpg")
+   width;
+      height: 400px; 
+    
+      /* adicional*/
+      overflow: hidden; 
+      /* Oculta cualquier parte de la imagen que se extienda más allá del contenedor */
+    }
+    
+    .cover-imagen img {
+      width: 100%; 
+      /* Ajusta el ancho de la imagen al 100% del contenedor */
+      height: 100%; 
+      /* Ajusta la altura de la imagen al 100% del contenedor */
+      object-fit: cover; 
+      /* Ajusta el tamaño de la imagen manteniendo la relación de aspecto y recortando según sea necesario */
+    }
+.banner{
+    background-size:contain;
+    background-position: center;
+    text-align: center;
+    padding: 1%;
+    color: #725d5d;
+  }
+  
+  .banner h2 {
+    margin: 0;
+  }
+  
+  .banner .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #7c4c4c;
+    color: hsl(0, 100%, 96%);
+    text-decoration:underline
+
+  }
+  
+  .centrado {
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    color: #f3dede;
+    text-decoration: none;
+  }
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #e29b00;
+  }
+  
+
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  /* Estilos de las pizzas */
+  .pizza {
+    padding: 20px;
+  }
+  
+  .pizza {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .pizza img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #f6a0a0;
+    color:#cbf6a0
+  }
